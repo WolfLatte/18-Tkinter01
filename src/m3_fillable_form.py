@@ -31,3 +31,126 @@ import tkinter as tk
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+window = tk.Tk()
+window.title("Form")
+
+label = tk.Label(
+    window,
+    text="Name",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="Address Line 1",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="Address Line 2",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="City",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="State",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="Zip Code",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="Phone Number",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+label = tk.Label(
+    window,
+    text="Email Address",
+    width = 20,
+    background = "MediumPurple1",
+   )
+label.pack()
+
+entry=tk.Entry(
+    window,
+    width = 24,
+    background = "thistle",
+)
+entry.pack()
+button=tk.Button(
+    window,
+    text="Submit"
+)
+button.pack()
+
+
+window.mainloop()
